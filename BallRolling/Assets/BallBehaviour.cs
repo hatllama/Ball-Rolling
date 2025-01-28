@@ -1,10 +1,11 @@
 using UnityEngine;
+using UnityEngine.Events;
 
 public class BallBehaviour : MonoBehaviour
 {
 
-    public Rigidbody sphereRigidbody;
-    public float ballSpeed = 2f;
+    [SerializeField] public Rigidbody sphereRigidbody;
+    [SerializeField] public float ballSpeed = 2f;
     
     void Start()
     {
